@@ -29,20 +29,24 @@ section{
     color:darkblue;
     overflow:auto;
     position:relative;
-  
 }
 .content{
     border: none;
 margin-left: auto;
 margin-right: auto;
 padding:18px;
+position:relative;
 
+}
+div #beef,div #chicken,div #sushi{
+    position:absolute;
+    left:509.5px;
 }
 #chicken{
     width:150px;
     background-color:rosybrown;
-    border:2px solid black;
-    float:right;
+    border:1px solid black;
+    
     font-size:1.25em;
     padding:8px;
     text-align:center;
@@ -52,28 +56,27 @@ padding:18px;
 #beef{
     width:150px;
     background-color:darksalmon;
-    border:2px solid black;
-    float:right;
+    border:1px solid black;
     font-size:1.25em;
     text-align:center;
     padding:8px;
     font-family:'Times New Roman', Times, serif;
-    font-weight:bold;
+    font-weight:bold; 
 }
 #sushi{
     width:150px;
     background-color:plum;
-    border:2px solid black;
-    float:right;
+    border:1px solid black;
+    
     font-size:1.25em;
     text-align:center;
     padding:8px;
     font-family:'Times New Roman', Times, serif;
     font-weight:bold;
 }
-/*.row{
+.row{
     width:100%;/*Place the cursor on beside text*/
-
+}
 @media(min-width:992px)
 {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,

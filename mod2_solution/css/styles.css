@@ -31,22 +31,22 @@ section{
     position:relative;
 }
 .content{
-    border: none;
+border: none;
 margin-left: auto;
 margin-right: auto;
 padding:18px;
 position:relative;
 
 }
-div #beef,div #chicken,div #sushi{
+/*div #beef,div #chicken,div #sushi{
     position:absolute;
     left:509.5px;
-}
+}*/
 #chicken{
     width:150px;
     background-color:rosybrown;
     border:1px solid black;
-    
+    float:right;
     font-size:1.25em;
     padding:8px;
     text-align:center;
@@ -59,6 +59,7 @@ div #beef,div #chicken,div #sushi{
     border:1px solid black;
     font-size:1.25em;
     text-align:center;
+    float:right;
     padding:8px;
     font-family:'Times New Roman', Times, serif;
     font-weight:bold; 
@@ -67,7 +68,7 @@ div #beef,div #chicken,div #sushi{
     width:150px;
     background-color:plum;
     border:1px solid black;
-    
+    float:right;
     font-size:1.25em;
     text-align:center;
     padding:8px;
